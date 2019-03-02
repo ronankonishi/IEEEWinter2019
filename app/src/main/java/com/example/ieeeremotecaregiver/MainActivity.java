@@ -19,4 +19,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, PatientPage.class);
         startActivity(intent);
     }
+
+    /** Called when the user taps the Patient button */
+    public void redirectToCaregiver(View view) {
+        Intent intent = new Intent(this, CaregiverPage.class);
+        startActivity(intent);
+    }
 }
