@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IEEERemoteCaregiver</string>
+    <string name="button_patient">Patient</string>
+    <string name="button_caregiver">Caregiver</string>
+    <string name="title">DONTFALL4ME</string>
+    <string name="title_patient">Patient Page</string>
+    <string name="button_notify">Notify</string>
+    <string name="button_send">Send</string>
+    <string name="button_voicecall">Voice Call</string>
+    <string name="button_videocall">Video Call</string>
+
+    <string name="label_connection">Connection</string>
+    <string name="label_patient_status">Patient Status</string>
+</resources>
