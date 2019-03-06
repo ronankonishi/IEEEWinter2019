@@ -1,0 +1,4 @@
+#Fri Mar 01 20:24:39 PST 2019
+base.0=C\:\\Users\\ronan\\Documents\\IEEEWinter2019\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

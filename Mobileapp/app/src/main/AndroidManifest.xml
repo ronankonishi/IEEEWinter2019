@@ -5,6 +5,10 @@
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,7 +16,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CaregiverPage"></activity>
+        <service android:name=".BluetoothLeService"></service>
+        <activity
+            android:name=".CaregiverPage"
+            android:parentActivityName=".MainActivity"></activity>
         <activity
             android:name=".PatientPage"
             android:parentActivityName=".MainActivity"></activity>
