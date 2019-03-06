@@ -16,13 +16,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <service android:name=".BluetoothLeService"></service>
-        <activity
-            android:name=".CaregiverPage"
-            android:parentActivityName=".MainActivity"></activity>
-        <activity
-            android:name=".PatientPage"
-            android:parentActivityName=".MainActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,6 +23,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".PatientActivity"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".CaregiverActivity"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".DeviceControlActivity"
+            android:parentActivityName=".CaregiverActivity"></activity>
+        <activity
+            android:name=".DeviceScanActivity"
+            android:parentActivityName=".CaregiverActivity"></activity>
+        <service android:name=".BluetoothLeService"></service>
     </application>
 
 </manifest>

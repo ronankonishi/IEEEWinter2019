@@ -9,9 +9,12 @@
     <string name="button_voicecall">Voice Call</string>
     <string name="button_videocall">Video Call</string>
 
+    <!-- Caregiver -->
     <string name="title_caregiver">Caregiver Page</string>
     <string name="label_connection">Connection</string>
     <string name="label_patient_status">Patient Status</string>
+    <string name="button_device_control">Device Control</string>
+    <string name="button_device_scan">Device Scan</string>
 
     <!-- Bluetooth items -->
     <string name="ble_not_supported">BLE is not supported</string>
