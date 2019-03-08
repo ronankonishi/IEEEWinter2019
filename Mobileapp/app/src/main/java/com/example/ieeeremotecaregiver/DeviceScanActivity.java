@@ -16,6 +16,7 @@
 
 package com.example.ieeeremotecaregiver;
 
+import android.Manifest;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.app.ListActivity;
@@ -25,15 +26,16 @@ import android.bluetooth.BluetoothManager;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -53,11 +55,16 @@ public class DeviceScanActivity extends ListActivity {
     private static final int REQUEST_ENABLE_BT = 1;
     // Stops scanning after 10 seconds.
     private static final long SCAN_PERIOD = 10000;
+    private static final int PERMISSION_REQUEST_COARSE_LOCATION = 456;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
+//        getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            requestPermissions(new String[]{Manifest.permission.ACCESS_COARSE_LOCATION}, PERMISSION_REQUEST_COARSE_LOCATION);
+        }
 
         ActionBar actionBar = getActionBar();
         actionBar.setTitle(R.string.title_devices);
@@ -81,6 +88,19 @@ public class DeviceScanActivity extends ListActivity {
             Toast.makeText(this, R.string.error_bluetooth_not_supported, Toast.LENGTH_SHORT).show();
             finish();
             return;
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String permissions[], @NonNull int[] grantResults) {
+        switch (requestCode) {
+            case PERMISSION_REQUEST_COARSE_LOCATION: {
+                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    // Permission granted, yay! Start the Bluetooth device scan.
+                } else {
+                    // Alert the user that this application requires the location permission to perform the scan.
+                }
+            }
         }
     }
 
