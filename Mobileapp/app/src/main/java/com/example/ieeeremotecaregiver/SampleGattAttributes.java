@@ -28,9 +28,9 @@ public class SampleGattAttributes {
     public static String HM10_DATA_SERVICE= "0000ffe0-0000-1000-8000-00805f9b34fb";
     public static String HM10_DEVICE_SERVICE = "00001800-0000-1000-8000-00805f9b34fb";
 //
-    public static String HM10_DATA_CHARACTERISTIC = "0000ffe1-0000-1000-8000-00805f9b34fb";
+//    public static String HM10_DATA_CHARACTERISTIC = "0000ffe1-0000-1000-8000-00805f9b34fb";
     //intential error in id so data doesnt get parsed
-//    public static String HM10_DATA_CHARACTERISTIC = "0000bbb1-0000-1000-8000-00805f9b34fb";
+    public static String HM10_DATA_CHARACTERISTIC = "0000bbb1-0000-1000-8000-00805f9b34fb";
 
     public static String HM10_DEVICE_CHARACTERISTIC = "00002a00-0000-1000-8000-00805f9b34fb";
 

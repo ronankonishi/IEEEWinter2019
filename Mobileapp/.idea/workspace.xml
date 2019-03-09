@@ -12,10 +12,7 @@
     <list default="true" id="b69e9f9b-53ad-4dbc-9e8f-b70a9caff481" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ieeeremotecaregiver/BluetoothLeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ieeeremotecaregiver/BluetoothLeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ieeeremotecaregiver/CaregiverActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ieeeremotecaregiver/CaregiverActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ieeeremotecaregiver/DeviceScanActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ieeeremotecaregiver/DeviceScanActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ieeeremotecaregiver/SampleGattAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ieeeremotecaregiver/SampleGattAttributes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_caregiver.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_caregiver.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +100,11 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ieeeremotecaregiver/BluetoothLeService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="148" column="9" lean-forward="true" selection-start-line="148" selection-start-column="9" selection-end-line="148" selection-end-column="9" />
+              <caret line="139" column="8" lean-forward="true" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
+              <folding>
+                <element signature="e#6705#6706#0" expanded="true" />
+                <element signature="e#6735#6736#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ieeeremotecaregiver/SampleGattAttributes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="28" column="86" selection-start-line="28" selection-start-column="86" selection-end-line="28" selection-end-column="86" />
+            <state relative-caret-position="289">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -130,7 +131,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>onCreateOption</find>
       <find>show()</find>
       <find>toast</find>
       <find>onCreate</find>
@@ -158,8 +158,9 @@
       <find>look</find>
       <find>LIST_NAME</find>
       <find>HEART</find>
-      <find>characteristic</find>
       <find>lookup</find>
+      <find>characteristic</find>
+      <find>9600</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,12 +182,12 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_caregiver.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ieeeremotecaregiver/CaregiverActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ieeeremotecaregiver/DeviceScanActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ieeeremotecaregiver/SampleGattAttributes.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/ieeeremotecaregiver/BluetoothLeService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/ieeeremotecaregiver/SampleGattAttributes.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -255,7 +256,7 @@
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="device.picker.selection" value="LGH810e974d5e5" />
+    <property name="device.picker.selection" value="DONTFALL4ME" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IEEEWinter2019Workspace/android-BluetoothLeGatt/Application" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
@@ -361,11 +362,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.076510064" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14563107" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -377,9 +378,9 @@
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.3460993" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50208044" side_tool="true" visible="true" weight="0.17216642" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.49932885" visible="true" weight="0.3460993" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.49791956" visible="true" weight="0.17216642" />
       <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Inspection Results" order="9" sideWeight="0.49932885" weight="0.32624114" />
       <window_info anchor="bottom" id="Find" order="10" />
@@ -557,15 +558,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ieeeremotecaregiver/SampleGattAttributes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="28" column="86" selection-start-line="28" selection-start-column="86" selection-end-line="28" selection-end-column="86" />
+        <state relative-caret-position="289">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/ieeeremotecaregiver/BluetoothLeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="148" column="9" lean-forward="true" selection-start-line="148" selection-start-column="9" selection-end-line="148" selection-end-column="9" />
+          <caret line="139" column="8" lean-forward="true" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
+          <folding>
+            <element signature="e#6705#6706#0" expanded="true" />
+            <element signature="e#6735#6736#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
