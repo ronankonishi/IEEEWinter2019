@@ -12,12 +12,6 @@ public class CaregiverActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_caregiver);
     }
-    
-    /** Called when the user taps the DeviceControl button */
-    public void redirectToDeviceControl(View view) {
-        Intent intent = new Intent(this, DeviceControlActivity.class);
-        startActivity(intent);
-    }
 
     /** Called when the user taps the DeviceScan button */
     public void redirectToDeviceScan(View view) {

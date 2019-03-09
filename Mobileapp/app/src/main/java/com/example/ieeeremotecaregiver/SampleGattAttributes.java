@@ -23,16 +23,25 @@ import java.util.HashMap;
  */
 public class SampleGattAttributes {
     private static HashMap<String, String> attributes = new HashMap();
-    public static String HEART_RATE_MEASUREMENT = "00002a37-0000-1000-8000-00805f9b34fb";
     public static String CLIENT_CHARACTERISTIC_CONFIG = "00002902-0000-1000-8000-00805f9b34fb";
 
+    public static String HM10_DATA_SERVICE= "0000ffe0-0000-1000-8000-00805f9b34fb";
+    public static String HM10_DEVICE_SERVICE = "00001800-0000-1000-8000-00805f9b34fb";
+//
+    public static String HM10_DATA_CHARACTERISTIC = "0000ffe1-0000-1000-8000-00805f9b34fb";
+    //intential error in id so data doesnt get parsed
+//    public static String HM10_DATA_CHARACTERISTIC = "0000bbb1-0000-1000-8000-00805f9b34fb";
+
+    public static String HM10_DEVICE_CHARACTERISTIC = "00002a00-0000-1000-8000-00805f9b34fb";
+
+
+
     static {
-        // Sample Services.
-        attributes.put("0000180d-0000-1000-8000-00805f9b34fb", "Heart Rate Service");
-        attributes.put("0000180a-0000-1000-8000-00805f9b34fb", "Device Information Service");
-        // Sample Characteristics.
-        attributes.put(HEART_RATE_MEASUREMENT, "Heart Rate Measurement");
-        attributes.put("00002a29-0000-1000-8000-00805f9b34fb", "Manufacturer Name String");
+        attributes.put(HM10_DATA_SERVICE, "HM10 Data Service");
+        attributes.put(HM10_DEVICE_SERVICE, "HM10 Device Information Service");
+
+        attributes.put(HM10_DATA_CHARACTERISTIC, "HM10 Data Characteristic");
+        attributes.put(HM10_DEVICE_CHARACTERISTIC, "Manufacturer Name String");
     }
 
     public static String lookup(String uuid, String defaultName) {
