@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "299136140387",
+    "firebase_url": "https://dontfall4me-7b24c.firebaseio.com",
+    "project_id": "dontfall4me-7b24c",
+    "storage_bucket": "dontfall4me-7b24c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299136140387:android:cc2b61d52dc5f12c",
+        "android_client_info": {
+          "package_name": "com.example.ieeeremotecaregiver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299136140387-ba1he79mg5jqil4pcmgh74fe5hd2mtpd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ieeeremotecaregiver",
+            "certificate_hash": "16569ab846deb44d3486155be1953dda24230282"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0nfJc20JcRQTtC6DjfkwjEG-69duJco4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299136140387-upi7ojiaimbvo8mlp0sjgo63dumpt4du.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
